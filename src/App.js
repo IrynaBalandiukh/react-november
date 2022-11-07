@@ -1,7 +1,10 @@
+import {Form1, Form2} from "./components";
+
 function App() {
   return (
     <div>
-       Main
+       <Form1/>
+        <Form2/>
     </div>
   );
 }
