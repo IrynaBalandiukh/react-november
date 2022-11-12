@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from "../Button/Button";
 
 const UserDetails = ({user}) => {
     const {id, name, username, email, phone, website} = user;
@@ -10,6 +11,7 @@ const UserDetails = ({user}) => {
             <div>Email: {email}</div>
             <div>Phone: {phone}</div>
             <div>Website: {website}</div>
+            <Button to={'posts'}>get posts</Button>
         </div>
     );
 };
